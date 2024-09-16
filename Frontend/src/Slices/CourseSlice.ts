@@ -22,7 +22,7 @@ export const CourseApi = createApi({
         method: "POST",
         body: enrollData,
       }),
-      invalidatesTags: ['Courses']
+      invalidatesTags: ['Courses','Enroll']
     }),
     enrollDetail: builder.query<enroll2[], string>({
       query: (email) => ({
