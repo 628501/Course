@@ -73,7 +73,7 @@ const VideoCard: React.FC<VideoCardProps> = ({ course, email }) => {
         enrollStatus: true,
         courseName,
       }).unwrap();
-      handleClose();
+      handleClosed();
       toast.success("Enrolled Successfully");
       setTimeout(() => {
         window.location.reload();
