@@ -1,0 +1,285 @@
+INSERT INTO courses (id, name, instructor, description, enrollmentStatus, thumbnail, duration, schedule, location, prerequisites, syllabus, students) VALUES
+(1, 'Introduction to React Native', 'John Doe', 'Learn the basics of React Native development and build your first mobile app.', 'Open', 'reactnative.png', '8 weeks', 'Tuesdays and Thursdays, 6:00 PM - 8:00 PM', 'Online',
+'["Basic JavaScript knowledge", "Familiarity with React"]',
+'[{"week": 1, "topic": "Introduction to React Native", "content": "Overview of React Native, setting up your development environment."},
+  {"week": 2, "topic": "Building Your First App", "content": "Creating a simple mobile app using React Native components."},
+  {"week": 3, "topic": "Understanding JSX", "content": "Introduction to JSX and how it’s used in React Native."},
+  {"week": 4, "topic": "State and Props", "content": "Managing state and passing props in React Native."},
+  {"week": 5, "topic": "Navigation in React Native", "content": "Implementing navigation between different screens in your app."},
+  {"week": 6, "topic": "Styling Components", "content": "Applying styles to components and using StyleSheet in React Native."},
+  {"week": 7, "topic": "Fetching Data", "content": "Fetching data from an API and displaying it in your app."}]',
+'[{"id": 101, "name": "Alice Johnson", "email": "alice@example.com"},
+  {"id": 102, "name": "Bob Smith", "email": "bob@example.com"}]');
+
+INSERT INTO courses (id, name, instructor, description, enrollmentStatus, thumbnail, duration, schedule, location, prerequisites, syllabus, students) VALUES
+(2, 'Advanced JavaScript', 'Jane Smith', 'Deep dive into advanced JavaScript concepts and techniques.', 'Open', 'Advancedjs.jpg', '10 weeks', 'Mondays and Wednesdays, 5:00 PM - 7:00 PM', 'Online',
+'["Intermediate JavaScript knowledge"]',
+'[{"week": 1, "topic": "JavaScript ES6 Features", "content": "Exploring new features introduced in ES6."},
+  {"week": 2, "topic": "Asynchronous JavaScript", "content": "Understanding Promises, async/await, and handling asynchronous operations."},
+  {"week": 3, "topic": "Closures and Scopes", "content": "Understanding closures and scope chains in JavaScript."},
+  {"week": 4, "topic": "Prototypes and Inheritance", "content": "Exploring prototype-based inheritance and how it works in JavaScript."},
+  {"week": 5, "topic": "Functional Programming", "content": "Introduction to functional programming concepts and their application in JavaScript."},
+  {"week": 6, "topic": "Error Handling", "content": "Best practices for handling errors and exceptions in JavaScript."},
+  {"week": 7, "topic": "Performance Optimization", "content": "Techniques for optimizing JavaScript code for better performance."}]',
+'[{"id": 201, "name": "Charlie Brown", "email": "charlie@example.com"},
+  {"id": 202, "name": "Diana Prince", "email": "diana@example.com"}]');
+
+INSERT INTO courses (id, name, instructor, description, enrollmentStatus, thumbnail, duration, schedule, location, prerequisites, syllabus, students) VALUES
+(3, 'Data Structures and Algorithms', 'Emily Davis', 'Learn about data structures and algorithms to enhance your problem-solving skills.', 'Closed', 'DSA.jpg', '12 weeks', 'Saturdays, 10:00 AM - 1:00 PM', 'Online',
+'["Basic programming knowledge"]',
+'[{"week": 1, "topic": "Introduction to Data Structures", "content": "Overview of common data structures such as arrays, linked lists, and stacks."},
+  {"week": 2, "topic": "Algorithms and Complexity", "content": "Understanding sorting algorithms and time complexity."},
+  {"week": 3, "topic": "Queues and Deques", "content": "Introduction to queue and deque data structures and their applications."},
+  {"week": 4, "topic": "Trees and Graphs", "content": "Understanding tree and graph data structures and their traversal methods."},
+  {"week": 5, "topic": "Hashing", "content": "Introduction to hashing and hash tables for efficient data retrieval."},
+  {"week": 6, "topic": "Dynamic Programming", "content": "Techniques for solving problems using dynamic programming."},
+  {"week": 7, "topic": "Greedy Algorithms", "content": "Understanding greedy algorithms and their use cases."}]',
+'[{"id": 301, "name": "Frank Castle", "email": "frank@example.com"},
+  {"id": 302, "name": "Grace Kelly", "email": "grace@example.com"}]');
+
+INSERT INTO courses (id, name, instructor, description, enrollmentStatus, thumbnail, duration, schedule, location, prerequisites, syllabus, students) VALUES
+(4, 'Introduction to Machine Learning', 'Michael Lee', 'Get started with machine learning and data science.', 'Open', 'ML.jpg', '14 weeks', 'Tuesdays and Thursdays, 7:00 PM - 9:00 PM', 'Online',
+'["Basic knowledge of Python", "Understanding of statistics"]',
+'[{"week": 1, "topic": "Basics of Machine Learning", "content": "Introduction to machine learning concepts and algorithms."},
+  {"week": 2, "topic": "Supervised Learning", "content": "Exploring supervised learning techniques and applications."},
+  {"week": 3, "topic": "Unsupervised Learning", "content": "Introduction to unsupervised learning methods like clustering and dimensionality reduction."},
+  {"week": 4, "topic": "Model Evaluation", "content": "Techniques for evaluating the performance of machine learning models."},
+  {"week": 5, "topic": "Feature Engineering", "content": "Understanding the importance of feature selection and extraction."},
+  {"week": 6, "topic": "Neural Networks", "content": "Introduction to neural networks and deep learning concepts."},
+  {"week": 7, "topic": "Model Deployment", "content": "Techniques for deploying machine learning models into production environments."}]',
+'[{"id": 401, "name": "Hannah Montana", "email": "hannah@example.com"},
+  {"id": 402, "name": "Ian Malcolm", "email": "ian@example.com"}]');
+
+INSERT INTO courses (id, name, instructor, description, enrollmentStatus, thumbnail, duration, schedule, location, prerequisites, syllabus, students) VALUES
+(5, 'Web Development Bootcamp', 'Sarah Connor', 'A comprehensive bootcamp covering front-end and back-end web development.', 'Open', 'webdevboot.png', '16 weeks', 'Monday to Friday, 9:00 AM - 12:00 PM', 'Online',
+'["No prior experience required"]',
+'[{"week": 1, "topic": "HTML & CSS Basics", "content": "Learning the fundamentals of HTML and CSS for building web pages."},
+  {"week": 2, "topic": "JavaScript Fundamentals", "content": "Introduction to JavaScript and its core concepts."},
+  {"week": 3, "topic": "Responsive Design", "content": "Implementing responsive design principles to make websites mobile-friendly."},
+  {"week": 4, "topic": "JavaScript DOM Manipulation", "content": "Manipulating the Document Object Model (DOM) using JavaScript."},
+  {"week": 5, "topic": "Introduction to APIs", "content": "Understanding and using web APIs to fetch and display data."},
+  {"week": 6, "topic": "Introduction to Back-End Development", "content": "Getting started with server-side programming and databases."},
+  {"week": 7, "topic": "Building a Full-Stack Application", "content": "Creating a complete web application with front-end and back-end integration."}]',
+'[{"id": 501, "name": "Jack Daniels", "email": "jack@example.com"},
+  {"id": 502, "name": "Lily Potter", "email": "lily@example.com"}]');
+
+INSERT INTO courses (id, name, instructor, description, enrollmentStatus, thumbnail, duration, schedule, location, prerequisites, syllabus, students) VALUES
+(6, 'Cloud Computing Essentials', 'Daniel Craig', 'Learn the basics of cloud computing and services.', 'In Progress', 'ccEssentials.jpg', '6 weeks', 'Fridays, 3:00 PM - 6:00 PM', 'Online',
+'["Basic understanding of computing concepts"]',
+'[{"week": 1, "topic": "Introduction to Cloud Computing", "content": "Overview of cloud computing and its benefits."},
+  {"week": 2, "topic": "Cloud Service Models", "content": "Understanding different cloud service models like IaaS, PaaS, and SaaS."},
+  {"week": 3, "topic": "Cloud Deployment Models", "content": "Exploring various cloud deployment models such as public, private, and hybrid clouds."},
+  {"week": 4, "topic": "Cloud Storage", "content": "Introduction to cloud storage options and services."},
+  {"week": 5, "topic": "Cloud Security", "content": "Understanding security best practices for cloud environments."},
+  {"week": 6, "topic": "Hands-on with Cloud Providers", "content": "Practical experience with major cloud providers like AWS, Azure, and Google Cloud."}]',
+'[{"id": 601, "name": "Mia Wong", "email": "mia@example.com"},
+  {"id": 602, "name": "Noah Adams", "email": "noah@example.com"}]');
+
+INSERT INTO courses (id, name, instructor, description, enrollmentStatus, thumbnail, duration, schedule, location, prerequisites, syllabus, students) VALUES
+(7, 'Cybersecurity Fundamentals', 'Robert Langdon', 'A beginner’s guide to cybersecurity principles and practices.', 'Open', 'cybersecurity.png', '10 weeks', 'Sundays, 1:00 PM - 4:00 PM', 'Online', 
+'["Basic understanding of computers"]', 
+'[{"week":1,"topic":"Introduction to Cybersecurity","content":"Fundamentals of cybersecurity and common threats."},
+{"week":2,"topic":"Network Security","content":"Understanding network security concepts and tools."},
+{"week":3,"topic":"Cryptography Basics","content":"Introduction to cryptography and its role in securing data."},
+{"week":4,"topic":"Security Policies and Procedures","content":"Creating and implementing security policies and procedures."},
+{"week":5,"topic":"Incident Response","content":"Preparing for and responding to security incidents."},
+{"week":6,"topic":"Penetration Testing","content":"Introduction to penetration testing and ethical hacking practices."},
+{"week":7,"topic":"Security Tools and Technologies","content":"Overview of common security tools and technologies used in the industry."}]',
+'[{"id":701,"name":"Olivia Wilde","email":"olivia@example.com"},
+{"id":702,"name":"Paul Walker","email":"paul@example.com"}]');
+
+INSERT INTO courses (id, name, instructor, description, enrollmentStatus, thumbnail, duration, schedule, location, prerequisites, syllabus, students) VALUES
+(8, 'iOS Development with Swift', 'Chris Evans', 'Learn to develop iOS applications using Swift programming language.', 'Open', 'swift.jpg', '12 weeks', 'Mondays and Wednesdays, 6:00 PM - 9:00 PM', 'Online', 
+'["Basic knowledge of programming"]', 
+'[{"week":1,"topic":"Getting Started with Swift","content":"Introduction to Swift and setting up your development environment."},
+{"week":2,"topic":"Building iOS Apps","content":"Creating your first iOS app using Swift and Xcode."},
+{"week":3,"topic":"User Interface Design","content":"Designing user interfaces using Interface Builder and SwiftUI."},
+{"week":4,"topic":"Data Management","content":"Handling data storage and retrieval in iOS apps."},
+{"week":5,"topic":"Networking in iOS","content":"Making network requests and handling JSON data."},
+{"week":6,"topic":"Animations and Effects","content":"Adding animations and visual effects to your iOS apps."},
+{"week":7,"topic":"Testing and Debugging","content":"Testing and debugging iOS applications to ensure quality."}]',
+'[{"id":801,"name":"Quinn Mallory","email":"quinn@example.com"},
+{"id":802,"name":"Rita Ora","email":"rita@example.com"}]');
+
+INSERT INTO courses (id, name, instructor, description, enrollmentStatus, thumbnail, duration, schedule, location, prerequisites, syllabus, students) VALUES
+(9, 'Game Development with Unity', 'Steve Rogers', 'Learn how to create 2D and 3D games using Unity.', 'Closed', 'unitygame.jpg', '14 weeks', 'Tuesdays and Thursdays, 4:00 PM - 7:00 PM', 'Online', 
+'["Basic programming knowledge"]', 
+'[{"week":1,"topic":"Introduction to Unity","content":"Overview of Unity interface and basic concepts."},
+{"week":2,"topic":"Creating 2D Games","content":"Building a simple 2D game using Unity."},
+{"week":3,"topic":"Unity Physics Engine","content":"Understanding and implementing Unity’s physics engine for realistic gameplay."},
+{"week":4,"topic":"3D Game Development","content":"Introduction to 3D game development and asset management."},
+{"week":5,"topic":"User Interface in Games","content":"Creating and managing user interfaces in Unity games."},
+{"week":6,"topic":"Audio and Visual Effects","content":"Adding audio and visual effects to enhance gameplay experience."},
+{"week":7,"topic":"Game Optimization","content":"Techniques for optimizing game performance and memory usage."}]',
+'[{"id":901,"name":"Sarah Connor","email":"sarah@example.com"},
+{"id":902,"name":"Tony Stark","email":"tony@example.com"}]');
+
+INSERT INTO courses (id, name, instructor, description, enrollmentStatus, thumbnail, duration, schedule, location, prerequisites, syllabus, students) VALUES
+(10, 'Introduction to Digital Marketing', 'Natalie Portman', 'Understand the basics of digital marketing and how to promote products online.', 'Open', 'digitalmarketing.png', '8 weeks', 'Fridays, 10:00 AM - 12:00 PM', 'Online', 
+'["No prior experience required"]', 
+'[{"week":1,"topic":"Digital Marketing Overview","content":"Introduction to digital marketing strategies and tools."},
+{"week":2,"topic":"SEO and SEM Basics","content":"Understanding search engine optimization and search engine marketing."},
+{"week":3,"topic":"Content Marketing","content":"Creating and managing content to attract and engage target audiences."},
+{"week":4,"topic":"Social Media Marketing","content":"Utilizing social media platforms to promote products and services."},
+{"week":5,"topic":"Email Marketing","content":"Building and managing effective email marketing campaigns."},
+{"week":6,"topic":"Analytics and Metrics","content":"Measuring and analyzing digital marketing performance using analytics tools."},
+{"week":7,"topic":"Pay-Per-Click Advertising","content":"Understanding and implementing pay-per-click (PPC) advertising strategies."}]',
+'[{"id":1001,"name":"Bruce Wayne","email":"bruce@example.com"},
+{"id":1002,"name":"Clark Kent","email":"clark@example.com"}]');
+
+INSERT INTO courses (id, name, instructor, description, enrollmentStatus, thumbnail, duration, schedule, location, prerequisites, syllabus, students) VALUES
+(11, 'Introduction to Node.js', 'Alice Cooper', 'Learn how to build scalable and efficient server-side applications using Node.js.', 'Open', 'nodejs.png', '6 weeks', 'Saturdays, 2:00 PM - 5:00 PM', 'Online', 
+'["Basic JavaScript knowledge"]', 
+'[{"week":1,"topic":"Getting Started with Node.js","content":"Introduction to Node.js, installation, and basic concepts."},
+{"week":2,"topic":"Building RESTful APIs","content":"Creating RESTful APIs using Express.js and connecting to databases."},
+{"week":3,"topic":"Working with Databases","content":"Connecting to and working with databases in Node.js applications."},
+{"week":4,"topic":"Authentication and Authorization","content":"Implementing authentication and authorization mechanisms in Node.js apps."},
+{"week":5,"topic":"Error Handling and Debugging","content":"Techniques for error handling and debugging Node.js applications."},
+{"week":6,"topic":"Deployment and Scaling","content":"Deploying Node.js applications and scaling them for production."}]',
+'[{"id":1101,"name":"Ella Fitzgerald","email":"ella@example.com"},
+{"id":1102,"name":"Freddie Mercury","email":"freddie@example.com"}]');
+
+INSERT INTO courses (id, name, instructor, description, enrollmentStatus, thumbnail, duration, schedule, location, prerequisites, syllabus, students) VALUES
+(12, 'Introduction to Blockchain', 'John Wick', 'Understand the principles behind blockchain technology and its applications.', 'Open', 'blockchain.jpg', '8 weeks', 'Wednesdays, 4:00 PM - 7:00 PM', 'Online', 
+'["Basic understanding of cryptocurrencies"]', 
+'[{"week":1,"topic":"Blockchain Basics","content":"Introduction to blockchain technology and its components."},
+{"week":2,"topic":"Cryptocurrencies and Smart Contracts","content":"Exploring cryptocurrencies and how smart contracts work."},
+{"week":3,"topic":"Blockchain Applications","content":"Understanding various applications of blockchain technology."},
+{"week":4,"topic":"Decentralized Finance (DeFi)","content":"Introduction to decentralized finance and its impact on traditional finance."},
+{"week":5,"topic":"Blockchain Security","content":"Understanding security concerns and solutions in blockchain systems."},
+{"week":6,"topic":"Future Trends in Blockchain","content":"Exploring future trends and innovations in blockchain technology."},
+{"week":7,"topic":"Hands-On Blockchain Projects","content":"Practical projects to apply blockchain concepts learned during the course."}]',
+'[{"id":1201,"name":"Leonardo DiCaprio","email":"leo@example.com"},
+{"id":1202,"name":"Angelina Jolie","email":"angelina@example.com"}]');
+
+
+import React, { useEffect, useRef, useState } from 'react';
+import { LinearProgress } from '@mui/material';
+
+const YouTubeVideoWithProgress = () => {
+  const [player, setPlayer] = useState(null);
+  const [progress, setProgress] = useState(0);
+  const playerRef = useRef(null);
+
+  // Load YouTube IFrame API script
+  useEffect(() => {
+    const loadScript = () => {
+      const script = document.createElement('script');
+      script.src = "https://www.youtube.com/iframe_api";
+      document.body.appendChild(script);
+    };
+
+    if (!window.YT) {
+      loadScript();
+    }
+
+    window.onYouTubeIframeAPIReady = () => {
+      setPlayer(new window.YT.Player(playerRef.current, {
+        height: '360',
+        width: '640',
+        videoId: 'YOUR_VIDEO_ID', // Replace with your video ID
+        events: {
+          'onStateChange': onPlayerStateChange,
+        },
+      }));
+    };
+  }, []);
+
+  // Update progress based on video state
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (player) {
+        const duration = player.getDuration();
+        const currentTime = player.getCurrentTime();
+        const progress = (currentTime / duration) * 100;
+        setProgress(progress);
+      }
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, [player]);
+
+  // Handle player state changes (e.g., play, pause)
+  const onPlayerStateChange = (event) => {
+    if (event.data === window.YT.PlayerState.ENDED) {
+      setProgress(0);
+    }
+  };
+
+  return (
+    <div>
+      <div ref={playerRef}></div>
+      <LinearProgress variant="determinate" value={progress} />
+    </div>
+  );
+};
+
+export default YouTubeVideoWithProgress;
+
+reactnative= https://youtu.be/gvkqT_Uoahw?si=R65D1gnuF4tRMO1P
+advancedjs= https://youtu.be/DHjqpvDnNGE?si=NyPxVKwujtyIstXU
+DSA=https://youtu.be/9I2oOAr2okY?si=FcL8IuyolBsq8-ku
+ML=https://youtu.be/QghjaS0WQQU?si=T3DEf_rrNNXJuomT
+webboot=https://youtu.be/mq508HXzccI?si=L2ANUtbVsvWBUTNE
+cc=https://youtu.be/N0SYCyS2xZA?si=hKt5HidLazTV_dnp
+cyber=https://youtu.be/VEQd-jmVs44?si=AwXSCV-04shnYMSM
+ios=https://youtu.be/RjDtTWL8r-U?si=aCPLbcJzYZBOa18r
+game=https://youtu.be/calcktNu31w?si=YYAgJ6Gxp7zb8zNR
+digitalMarketing=https://youtu.be/PxjV_1oPirk?si=Vzg5q7Rnn1o9wyJG
+node=https://youtu.be/ATCs2BY-acA?si=gHSmkPJYKQiyFK9q
+blockchain=https://youtu.be/euj4zcpdrWA?si=lqIt3htwgdXd6zNE
+
+
+reactNative=https://youtu.be/ZBCUegTZF7M?si=e2VtEAiZz4VOjVoj
+advancedjs=https://youtu.be/R9I85RhI7Cg?si=KufphCnYPqDMBsPs
+dsa=https://youtu.be/BBpAmxU_NQo?si=d-tbpPhfr3ZHT-kJ
+ml=https://youtu.be/i_LwzRVP7bg?si=jR8lnIKlfNMwT-rn
+bootcamp=https://youtu.be/AmX9zoLhUKU?si=KqxzuhQ7bKvtjn22
+cc=https://youtu.be/2LaAJq1lB1Q?si=FN8HMfAPc5ghqMT5
+cyber=https://youtu.be/njPY7pQTRWg?si=H05A2dt4ukRa-viz
+ios=https://youtu.be/CwA1VWP0Ldw?si=LS82w2vPWPyUJN8Z
+unity=https://youtu.be/gB1F9G0JXOo?si=rXWTblfR4LZKOD_T
+digital =https://www.youtube.com/live/nkNHn0VqVBA?si=X__Ha5dEH0c-4l-v
+node=https://youtu.be/Oe421EPjeBE?si=QYdKu5IvZ12gaxsq
+blockchain=https://youtu.be/SyVMma1IkXM?si=1uXu8OhGLg77sln2
+
+karthis15cse@gmail.com
+karthis15cse@gmail.com
+karthis15cse@gmail.com
+
+// Example liked and disliked course IDs
+const likedCourses = [2, 3, 4, 5];
+const dislikedCourses = [4, 5, 6];
+
+// Function to update likes and dislikes
+const updateCoursePreferences = () => {
+  // Increment likes for the courses
+  const likedQuery = 'UPDATE coursedetail SET liked = liked + 1 WHERE id IN (?)';
+  connection.query(likedQuery, [likedCourses], (err, results) => {
+    if (err) {
+      console.error('Error updating likes:', err);
+      return;
+    }
+    console.log('Likes updated:', results);
+  });
+
+  // Increment dislikes for the courses
+  const dislikedQuery = 'UPDATE coursedetail SET disliked = disliked + 1 WHERE id IN (?)';
+  connection.query(dislikedQuery, [dislikedCourses], (err, results) => {
+    if (err) {
+      console.error('Error updating dislikes:', err);
+      return;
+    }
+    console.log('Dislikes updated:', results);
+  });
+
+  // Close the database connection
+  connection.end();
+};
+
+
+   if (user.name) {
+        return <>{children}</>;
+    } else {
+        return <Navigate to={`/login?returnUrl=${location.pathname}`} replace />;
+    }
